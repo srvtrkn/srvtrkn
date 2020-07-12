@@ -5,6 +5,7 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
 import resumeData from "./resumeData";
+import Pdf from "./Components/Pdf";
 export default function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ export default function App() {
       <Resume data={resumeData.resume} />
       <Projects data={resumeData.portfolio} />
       <Footer data={resumeData.main} />
+      <Pdf data={resumeData} />
     </div>
   );
 }

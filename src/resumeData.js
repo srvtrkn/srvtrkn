@@ -6,10 +6,11 @@ export default {
       "Full Stack Developer, Hybrid Mobile Developer(React Native, Ionic), Blockchain Takipçisi",
     image: "profilepic.jpg",
     email: "servet.erkan@gmail.com",
+    address: "İstabul / Ümraniye",
     social: [
       {
         name: "linkedin",
-        url: "https://tr.linkedin.com/in/servet-erkan-b9986559",
+        url: "https://www.linkedin.com/in/srvtrkn/",
         className: "fa fa-linkedin",
       },
       {
@@ -22,14 +23,25 @@ export default {
   resume: {
     education: [
       {
+        school: "Altınbaş Üniversitesi",
+        department: "Bilişim Teknolojileri",
+        degree: "3,75/4.00",
+        graduated: "Eylül 2013 - Terk",
+        type: "Yüksek Lisans",
+      },
+      {
         school: "Yıldız Teknik Üniversitesi",
-        degree: "Elektronik ve Haberleşme Mühendisliği",
+        department: "Elektronik ve Haberleşme Mühendisliği",
+        degree: "2.71/4.00",
         graduated: "Haziran 2011",
+        type: "Lisans",
       },
       {
         school: "Meram Fen Lisesi",
-        degree: "",
+        department: "",
+        degree: "4.70/5.00",
         graduated: "Haziran 2006",
+        type: "Lise",
       },
     ],
     work: [
@@ -96,8 +108,8 @@ export default {
         level: "80%",
       },
       {
-        name: "HTML5",
-        level: "80%",
+        name: "HTML",
+        level: "90%",
       },
     ],
   },
@@ -107,15 +119,13 @@ export default {
         title: "Movie Roulette",
         category: "Film öneri ve arama uygulaması",
         image: "mr.png",
-        url:
-          "https://play.google.com/store/apps/details?id=io.cordova.myapp1c2b67",
+        url: "https://bit.ly/movierouletteapp",
       },
       {
         title: "Otopark Bul",
         category: "İstanbul içi otopark arama uygulaması",
         image: "ob.png",
-        url:
-          "https://play.google.com/store/apps/details?id=com.otoparkbul.otoparkbul",
+        url: "https://bit.ly/otoparkbulapp",
       },
       {
         title: "BTCTR",
