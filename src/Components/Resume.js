@@ -5,10 +5,13 @@ export default function Resume({ data }) {
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
-          <h3>{education.school}</h3>
+          <h3>{`${education.school} (${education.type})`}</h3>
           <p className="info">
-            {education.department} <span>&bull;</span>
+            {education.department} <span>&bull;</span>{" "}
             <em className="date">{education.graduated}</em>
+          </p>
+          <p>
+            <em>{education.degree}</em>
           </p>
           <p>{education.description}</p>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "./Pdf";
 export default function Contact({ data }) {
   return (
     <section id="contact">
@@ -19,6 +20,11 @@ export default function Contact({ data }) {
                   <span>{data.email}</span>
                 </a>
               </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="columns contact-details">
+              <Pdf />
             </div>
           </div>
         </div>

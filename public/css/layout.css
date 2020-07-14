@@ -62,7 +62,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 90px/1.1em "Roboto", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
@@ -221,7 +221,7 @@ ul#nav li.current a {
 }
 
 #contact h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 22px/30px "Roboto", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -288,7 +288,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 25px/30px "Roboto", sans-serif;
 }
 
 #resume .header-col {
@@ -538,7 +538,7 @@ ul#nav li.current a {
   padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
+  font: 14px/21px "Roboto", sans-serif;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
@@ -570,7 +570,7 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px "opensans-bold", sans-serif;
+  font: 15px/24px "Roboto", sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
@@ -597,7 +597,7 @@ ul#nav li.current a {
 }
 .popup-modal .link-box a {
   color: #fff;
-  font: 11px/21px "opensans-bold", sans-serif;
+  font: 11px/21px "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -640,7 +640,7 @@ ul#nav li.current a {
   padding-bottom: 48px;
 }
 #call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -662,7 +662,7 @@ ul#nav li.current a {
   margin-top: 12px;
 }
 #call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
+  font: 28px/36px "Roboto", sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
@@ -709,7 +709,7 @@ call-to-action .button {
   padding-bottom: 66px;
 }
 #testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
+  font: 18px/24px "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -965,4 +965,18 @@ footer .social-links li:first-child {
 }
 #go-top a:hover {
   background-color: #0f9095;
+}
+
+.button {
+  background-color: rgba(180, 218, 228, 0.8) !important;
+  color: rgb(43, 43, 43) !important;
+  font-weight: 500;
+  border: 1px solid rgb(65, 113, 156) !important;
+  border-radius: 7px !important;
+  padding: 7px;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: #11abb0 !important;
 }
