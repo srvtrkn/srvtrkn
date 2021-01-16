@@ -18,7 +18,11 @@ export default function Pdf() {
     doc.setTextColor(75);
     doc.text(data.main.email, 65, 53);
     doc.setTextColor(0);
-    let y = 53;
+    doc.text("Telefon", 40, 59);
+    doc.setTextColor(75);
+    doc.text(data.main.phone, 65, 59);
+    doc.setTextColor(0);
+    let y = 59;
     for (let i = 0; i < data.main.social.length; i++) {
       let s = data.main.social[i];
       y = y + 6;

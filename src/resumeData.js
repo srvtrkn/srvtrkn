@@ -6,7 +6,8 @@ export default {
       "Full Stack Developer, Hybrid Mobile Developer(React Native, Ionic), Blockchain Takipçisi",
     image: "profilepic.jpg",
     email: "servet.erkan@gmail.com",
-    address: "İstabul / Ümraniye",
+    phone: "+905055298692",
+    address: "İstanbul / Ümraniye",
     social: [
       {
         name: "Linkedin",
